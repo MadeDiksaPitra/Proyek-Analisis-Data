@@ -17,8 +17,8 @@ st.markdown("### Analisis data dari dataset 'hour.csv' dan 'day.csv'")
 st.header("Dataset")
 
 # Gathering data CSV files dari folder Data (hour.csv and day.csv)
-hour_data = pd.read_csv('./hour.csv')
-day_data = pd.read_csv('./day.csv')
+hour_data = pd.read_csv('hour.csv')
+day_data = pd.read_csv('day.csv')
 
 # Menampilkan 5 baris pertama untuk kedua dataset
 st.subheader("Dataset hour.csv")
